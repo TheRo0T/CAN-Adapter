@@ -15945,7 +15945,7 @@ Source: www.kingbright.com</description>
 <part name="JP1" library="CAN-BT" deviceset="PINHD-1X5" device=""/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="JP2" library="CAN-BT" deviceset="PINHD-1X6" device=""/>
+<part name="HC-05" library="CAN-BT" deviceset="PINHD-1X6" device=""/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
@@ -16026,7 +16026,7 @@ Source: www.kingbright.com</description>
 <instance part="JP1" gate="A" x="96.52" y="40.64"/>
 <instance part="P+6" gate="1" x="73.66" y="55.88"/>
 <instance part="GND9" gate="1" x="68.58" y="33.02"/>
-<instance part="JP2" gate="A" x="149.86" y="40.64"/>
+<instance part="HC-05" gate="A" x="149.86" y="40.64"/>
 <instance part="P+7" gate="1" x="124.46" y="55.88"/>
 <instance part="GND10" gate="1" x="114.3" y="35.56"/>
 <instance part="P+8" gate="1" x="-121.92" y="43.18"/>
@@ -16177,7 +16177,7 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
-<pinref part="JP2" gate="A" pin="3"/>
+<pinref part="HC-05" gate="A" pin="3"/>
 <wire x1="114.3" y1="38.1" x2="114.3" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="43.18" x2="147.32" y2="43.18" width="0.1524" layer="91"/>
 </segment>
@@ -16252,7 +16252,7 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="P+7" gate="1" pin="+5V"/>
-<pinref part="JP2" gate="A" pin="2"/>
+<pinref part="HC-05" gate="A" pin="2"/>
 <wire x1="124.46" y1="53.34" x2="124.46" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="45.72" x2="147.32" y2="45.72" width="0.1524" layer="91"/>
 </segment>
@@ -16415,14 +16415,14 @@ Source: www.kingbright.com</description>
 </net>
 <net name="EN" class="0">
 <segment>
-<pinref part="JP2" gate="A" pin="1"/>
+<pinref part="HC-05" gate="A" pin="1"/>
 <wire x1="147.32" y1="48.26" x2="137.16" y2="48.26" width="0.1524" layer="91"/>
 <label x="137.16" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="BT_TX" class="0">
 <segment>
-<pinref part="JP2" gate="A" pin="4"/>
+<pinref part="HC-05" gate="A" pin="4"/>
 <wire x1="147.32" y1="40.64" x2="139.7" y2="40.64" width="0.1524" layer="91"/>
 <label x="139.7" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -16434,7 +16434,7 @@ Source: www.kingbright.com</description>
 </net>
 <net name="BT_RX" class="0">
 <segment>
-<pinref part="JP2" gate="A" pin="5"/>
+<pinref part="HC-05" gate="A" pin="5"/>
 <wire x1="147.32" y1="38.1" x2="129.54" y2="38.1" width="0.1524" layer="91"/>
 <label x="129.54" y="38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -16446,7 +16446,7 @@ Source: www.kingbright.com</description>
 </net>
 <net name="STATE" class="0">
 <segment>
-<pinref part="JP2" gate="A" pin="6"/>
+<pinref part="HC-05" gate="A" pin="6"/>
 <wire x1="147.32" y1="35.56" x2="139.7" y2="35.56" width="0.1524" layer="91"/>
 <label x="139.7" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
